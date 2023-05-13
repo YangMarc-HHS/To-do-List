@@ -1,0 +1,8 @@
+public class Main {
+    public static void main(String[] args) {
+        Filer filer = new Filer();
+        Frame frame = new Frame(filer.readFromFile(),filer.getDoneTasks());
+
+
+    }
+}
